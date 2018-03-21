@@ -21,11 +21,11 @@ This repository contains all the kit related examples and the kit user guide. Re
 If you are new to developing projects with PSoC 4 MCU, we recommend you to refer the [PSoC 4 Getting Started](https://github.com/cypresssemiconductorco/PSoC-4-MCU-Getting-Started) GitHub page which can help you familiarize with device features and guides you to create a simple PSoC 4 design with PSoC Creator IDE. For other block specific design please visit the following GitHub Pages:
 
 #### 1. Analog Designs
-#### 2. [CapSense](https://github.com/cypresssemiconductorco/PSoC-4-MCU-CapSense)
-#### 3. [Digital Designs](https://github.com/cypresssemiconductorco/PSoC-4-MCU-Digital-Designs)
+#### 2. [CapSense](https://github.com/cypresssemiconductorco/PSoC4-MCU-CapSense)
+#### 3. [Digital Designs](https://github.com/cypresssemiconductorco/PSoC4-MCU-Digital-Designs)
 #### 4. BLE
-#### 5. [USB](https://github.com/cypresssemiconductorco/PSoC-4-MCU-USB-Connectivity-Designs)
-#### 6. [Device Related Designs](https://github.com/cypresssemiconductorco/PSoC-4-MCU-Device-Related-Designs)
+#### 5. [USB](https://github.com/cypresssemiconductorco/PSoC4-MCU-USB-Connectivity-Designs)
+#### 6. [Device Related Designs](https://github.com/cypresssemiconductorco/PSoC4-MCU-Device-Related-Designs)
 #### 7. System Design
 
 # Required Tools
