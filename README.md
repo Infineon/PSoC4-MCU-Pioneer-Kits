@@ -22,7 +22,7 @@ If you are new to developing projects with PSoC 4 MCU, we recommend you to refer
 
 #### 1. Getting Started
 #### 2. Analog Designs
-#### 3. CapSense
+#### 3. [CapSense](https://github.com/cypresssemiconductorco/PSoC-4-MCU-CapSense)
 #### 4. [Digital Designs](https://github.com/cypresssemiconductorco/PSoC-4-MCU-Digital-Designs)
 #### 5. BLE
 #### 6. [USB](https://github.com/cypresssemiconductorco/PSoC-4-MCU-USB-Connectivity-Designs)
