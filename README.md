@@ -23,10 +23,10 @@ If you are new to developing projects with PSoC 4 MCU, we recommend you to refer
 #### 1. Getting Started
 #### 2. Analog Designs
 #### 3. CapSense
-#### 4. Digital Designs
+#### 4. [Digital Designs](https://github.com/cypresssemiconductorco/PSoC-4-MCU-Digital-Designs)
 #### 5. BLE
-#### 6. USB
-#### 7. Device Related Designs
+#### 6. [USB](https://github.com/cypresssemiconductorco/PSoC-4-MCU-USB-Connectivity-Designs)
+#### 7. [Device Related Designs](https://github.com/cypresssemiconductorco/PSoC-4-MCU-Device-Related-Designs)
 #### 8. System Design
 
 # Required Tools
