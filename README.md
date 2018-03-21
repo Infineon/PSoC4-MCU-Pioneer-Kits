@@ -20,7 +20,7 @@ Each Development Kit is packaged with set of code examples which can get you sta
 This repository contains all the kit related examples and the kit user guide. Refer to the respective kit user guide for the project implementation details.  
 If you are new to developing projects with PSoC 4 MCU, we recommend you to refer the PSoC 4 Getting Started GitHub page which can help you familiarize with device features and guides you to create a simple PSoC 4 design with PSoC Creator IDE. For other block specific design please visit the following GitHub Pages:
 
-#### 1. Getting Started
+#### 1. [Getting Started](https://github.com/cypresssemiconductorco/PSoC-4-MCU-Getting-Started)
 #### 2. Analog Designs
 #### 3. [CapSense](https://github.com/cypresssemiconductorco/PSoC-4-MCU-CapSense)
 #### 4. [Digital Designs](https://github.com/cypresssemiconductorco/PSoC-4-MCU-Digital-Designs)
