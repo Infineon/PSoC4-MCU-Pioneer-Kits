@@ -83,10 +83,7 @@ This example project demonstrates the Central and GATT client mode where the kit
 #### 4. Direct Test Mode(DTM)
 This project configures the kit for Direct Test Mode using Host Controller Interface (HCI). Direct Test Mode (DTM) is a method to test the BLE PHY layer and provide a report back to the tester.
 #### 5. Eddystone
-This project demonstrates a BLE beacon based on Google's Eddystone™ protocol on the BLE Pioneer Kit. A beacon is a wireless device that broadcasts data (such as temperature) over a periodic radio signal from a known location. BLE-based beacons use the BLE advertisement packets to broadcast data. This project demonstrates the following:
-■ Beacon (non-connectable advertisement)
-■ Beacon configuration (connectable advertisement)
-
+This project demonstrates a BLE beacon based on Google's Eddystone™ protocol on the BLE Pioneer Kit. A beacon is a wireless device that broadcasts data (such as temperature) over a periodic radio signal from a known location. BLE-based beacons use the BLE advertisement packets to broadcast data.
 
 ## References
 #### 1. PSoC 4 MCU
