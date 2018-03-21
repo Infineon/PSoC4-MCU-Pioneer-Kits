@@ -22,10 +22,12 @@ If you are new to developing projects with PSoC 4 MCU, we recommend you to refer
 
 #### 1. Getting Started
 #### 2. Analog Designs
-#### 3. Digital Designs
-#### 4. USB Connectivity Designs
-#### 5. Device Related Designs
-#### 6. System Designs
+#### 3. CapSense
+#### 4. Digital Designs
+#### 5. BLE
+#### 6. USB
+#### 7. Device Related Designs
+#### 8. System Design
 
 # Required Tools
 
