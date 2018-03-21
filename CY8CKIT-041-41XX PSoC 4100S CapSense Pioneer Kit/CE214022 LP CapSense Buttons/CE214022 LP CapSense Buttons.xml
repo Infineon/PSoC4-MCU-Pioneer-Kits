@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="CE214022 LP CapSense Buttons" WorkspaceName="CE214022 LP CapSense Buttons.cywrk">
+  <Version>1.0</Version>
+  <Keyword>CapSense</Keyword>					<!-- Component name in the catalog -->
+  <Keyword>EZI2C Slave (SCB mode)</Keyword>		<!-- Component name in the catalog -->
+  <Keyword>PWM (TCPWM mode)</Keyword>			<!-- Component name in the catalog -->
+  <Keyword>Low Power</Keyword>					<!-- application -->
+  <Keyword Hidden="true">CY8CKIT-041-41XX</Keyword>
+  <Description>This code example demonstrates how to implement low-power CapSense buttons with an average current consumption of 5uA per button.</Description>
+  <DeviceFilter>PSoC 4100S</DeviceFilter>
+  <Document>CE214022 LP CapSense Buttons.pdf</Document>
+  <MinToolVersion>4.0.0.432</MinToolVersion>
+</Project>

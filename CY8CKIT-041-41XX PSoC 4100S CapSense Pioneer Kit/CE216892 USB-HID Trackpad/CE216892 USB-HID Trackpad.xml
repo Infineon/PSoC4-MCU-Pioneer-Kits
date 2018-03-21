@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="CE216892 USB-HID Trackpad" WorkspaceName="CE216892 USB-HID Trackpad.cywrk">
+  <Version>1.0</Version>
+  <Keyword>CapSense</Keyword>					<!-- Component name in the catalog -->
+  <Keyword>EZI2C Slave (SCB mode)</Keyword>		<!-- Component name in the catalog -->
+  <Keyword>Pin</Keyword>						<!-- Component name in the catalog -->
+  <Keyword>Trackpad</Keyword>					<!-- application -->
+  <Keyword>USB HID Mouse</Keyword>				<!-- application -->
+  <Keyword Hidden="true">CY8CKIT-041-41XX</Keyword>
+  <Description>This code example implements a CapSense trackpad and interfaces the trackpad as a USB Mouse Human Interface Device (HID) to a Windows PC.</Description>
+  <DeviceFilter>PSoC 4100S</DeviceFilter>
+  <Document>CE216892 USB-HID Trackpad.pdf</Document>
+  <MinToolVersion>4.0.0.432</MinToolVersion>
+</Project>
