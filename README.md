@@ -20,11 +20,12 @@ Each Development Kit is packaged with set of code examples which can get you sta
 This repository contains all the kit related examples and the kit user guide. Refer to the respective kit user guide for the project implementation details.  
 If you are new to developing projects with PSoC 4 MCU, we recommend you to refer the PSoC 4 Getting Started GitHub page which can help you familiarize with device features and guides you to create a simple PSoC 4 design with PSoC Creator IDE. For other block specific design please visit the following GitHub Pages:
 
-#### 1. Analog Designs
-#### 2. Digital Designs
-#### 3. Connectivity Designs
-#### 4. Device Related Designs
-#### 5. System Designs
+#### 1. Getting Started
+#### 2. Analog Designs
+#### 3. Digital Designs
+#### 4. USB Connectivity Designs
+#### 5. Device Related Designs
+#### 6. System Designs
 
 # Required Tools
 
