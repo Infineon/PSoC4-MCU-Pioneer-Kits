@@ -26,7 +26,7 @@ If you are new to developing projects with PSoC 4 MCU, we recommend you to refer
 #### 4. [BLE Connectivity Designs](https://github.com/cypresssemiconductorco/PSoC4-MCU-BLE-Connectivity-Designs)
 #### 5. [USB Connectivity Designs](https://github.com/cypresssemiconductorco/PSoC4-MCU-USB-Connectivity-Designs)
 #### 6. [Device Related Designs](https://github.com/cypresssemiconductorco/PSoC4-MCU-Device-Related-Designs)
-#### 7. [System Design](https://github.com/cypresssemiconductorco/PSoC4-MCU-System-Designs)
+#### 7. [System Designs](https://github.com/cypresssemiconductorco/PSoC4-MCU-System-Designs)
 
 # Required Tools
 
