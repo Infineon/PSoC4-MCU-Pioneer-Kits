@@ -97,6 +97,20 @@ This project configures the kit for Direct Test Mode using Host Controller Inter
 #### 5. Eddystone
 This project demonstrates a BLE beacon based on Google's Eddystone™ protocol on the BLE Pioneer Kit. A beacon is a wireless device that broadcasts data (such as temperature) over a periodic radio signal from a known location. BLE-based beacons use the BLE advertisement packets to broadcast data.
 
+### CY8CKIT-046 PSoC 4 L Series Pioneer Kit
+#### 1. DeepSleep Blinky
+This code example demonstrates the DeepSleep low-power mode of the PSoC 4200L device. The device is configured to be in DeepSleep mode and wakes up once every second. The PSoC 4200L toggles the GPIO state each time the device wakes up from DeepSleep mode. The GPIO is connected to the green LED on the kit, which turns on and off depending upon the GPIO state. The example also demonstrates a method to calibrate the ILO clock based on the IMO clock signal for better ILO accuracy. The calibrated LFCLK is used to source the watchdog timer.
+#### 2. CapSense Proximity
+This code example demonstrates the proximity sensing capability of the PSoC 4200L device. The CapSense scans for an approaching hand every 100 ms and enters a low-power mode when proximity is not detected. This allows the PSoC 4200L to operate at lower average power levels. The scanning interval is decreased such that the CapSense scan is performed every 30 ms when proximity is detected. The PSoC 4200L gradually increases the brightness of the blue LED as a hand approaches the proximity sensor. If proximity is not detected for a period more than 3s, the PSoC 4200L increases the CapSense scanning interval back to 100 ms.
+#### 3. Proximity Gestures
+This code example demonstrates the proximity gesture detection capability of the PSoC 4200L device using CapSense.
+#### 4. CapSense Buttons
+This code example demonstrates basic dual-channel CapSense functionality in the PSoC 4 L-Series Pioneer Kit. The example implements five CapSense buttons using the CSD0 block and a proximity sensor using the CSD1 block. The buttons are used to control the brightness and color of the onboard RGB LED. The signal from the proximity sensor provides an additional brightness control factor. The LED brightness level is controlled by the buttons and the proximity signal provides a multiplication factor to the brightness output from the buttons
+#### 5. USB Mouse
+This code example demonstrates a simple USB human interface device (HID) implementation (mouse/keyboard) using the CapSense Gesture Pad present in the CY8CKIT-046 PSoC 4 L-Series Pioneer Kit. In addition to emulating mouse/keyboard over USB, the example also controls the RGB LED intensity.
+#### 6. USB Audio
+This code example demonstrates the capability of PSoC 4200L to provide a high-quality audio playback and recording interface to a Windows or Mac PC. The example uses the PSoC 4200L USB to implement an asynchronous USB Audio Class v1.0 compliant device. The PSoC 4 L-Series Pioneer Kit has a standard 3.5-mm TRRS audio jack onboard and an audio codec to convert digital audio stream into analog and vice-versa. These components along with PSoC 4200L implement the complete USB Audio interface.
+
 ## References
 #### 1. PSoC 4 MCU
 PSoC 4 is the world's Most Flexible 32-bit ARM Cortex-M0 One-Chip Solution. PSoC 4 has tackled some of the complex portions of embedded system design making it easier for you to get your product to market. Functions such as analog sensor integration, capacitive touch, and wireless connectivity have been integrated and optimized in PSoC 4 to “just work” so you don’t have to. To learn more on the device. Learn more: [PSoC 4 MCU](http://www.cypress.com/products/32-bit-arm-cortex-m0-psoc-4)
