@@ -53,6 +53,16 @@ To use the code examples in this repository, please download and install
 
 ## Code Example List
 
+### CY8CKIT-040 PSoC 4000 Pioneer Kit
+#### 1. Blinking LED
+This example uses a PWM block to blink the red LED of the RGB LED. The PWM output is connected to pin P3_2 (red) of the RGB LED. The PWM block is configured as a digital clock signal generator with a frequency of 1 Hz. The blinking rate can be varied by changing the period and compare value of the PWM.
+#### 2. CapSense Proximity and UART
+The project CY8CKIT_040_Proximity_UART.cyprj implements a capacitive proximity sensor control ling the brightness of a LED. The project configures the sensor as a CapSense proximity widget with SmartSense Auto-tuning.
+#### 3. CapSense Touchpad with I2C Tuner
+The project CY8CKIT_40_CapSense_I2C.cyprj demonstrates the implementation of a CapSense Trackpad using SmartSense and an EzI2C-based CapSense Tuner window for viewing the Trackpad coordinates. The project is a simple implementation using SmartSense (minimal tuning). The EzI2C block of PSoC 4000 is interfaced through the PSoC 5LP based USB-I2C bridge to the PC GUI. The project uses the SmartSense feature, which sets all CapSense parameters to the optimum values automatically
+#### 4. Color Palette
+The project CY8CKIT_040_Color_Palette.cyprj demonstrates the capability of PSoC 4000 device to interface with a capacitive Trackpad and control an RGB LED based on the color selected by touching the sticker on top of the Trackpad. The sticker will also include a slider area (part of Trackpad), which will control the color brightness of the RGB LED. The project will demonstrate the proximity sensing capability of the device using a wire. The LED intensity control is done using software Precision Illumination Signal Modulator (PrISM).
+
 ### CY8CKIT-041-41XX PSoC 4100S CapSense Pioneer Kit 
 #### 1. CE214022 LP CapSense Buttons
 This code example implements two CapSense buttons using CY8CKIT-041-41XX. The left button is used to control the onboard RGB LED color, and the right button is used to control the brightness of the RGB LED. Using the low-power modes available in the PSoC 4100S device, an average current of 5 µA per button is achieved when the touch is not detected.
