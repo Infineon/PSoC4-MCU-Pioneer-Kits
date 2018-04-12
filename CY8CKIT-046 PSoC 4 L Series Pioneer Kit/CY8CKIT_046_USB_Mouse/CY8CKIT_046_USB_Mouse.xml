@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="CY8CKIT_046_USB_Mouse" WorkspaceName="CY8CKIT_046_USB_Mouse.cywrk">
+  <Version>1.0</Version>  
+  <Keyword>CapSense</Keyword>
+  <Keyword>USBFS</Keyword>  
+  <Keyword>HID</Keyword>     
+  <Keyword>Mouse</Keyword>
+  <Keyword>CapSense_CSD_P4</Keyword>  
+  <Keyword Hidden="true">CY8CKIT-046</Keyword>
+  <Description>This example demonstrates a simple USB human interface device (HID) implementation (mouse/keyboard) using the CapSense Gesture Pad present in the CY8CKIT-046 PSoC 4 L-Series Pioneer Kit. In addition to emulating mouse/keyboard over USB, the project also controls the RGB LED intensity.
+  </Description>  
+  <DeviceFilter>PSoC 4200L</DeviceFilter>  
+  <MinToolVersion>3.3.0.7343</MinToolVersion>
+</Project>

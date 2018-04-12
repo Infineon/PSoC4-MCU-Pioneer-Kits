@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="CY8CKIT_046_USB_Audio" WorkspaceName="CY8CKIT_046_USB_Audio.cywrk">
+  <Version>1.0</Version>  
+  <Keyword>CapSense</Keyword>
+  <Keyword>USBFS</Keyword>  
+  <Keyword>Audio</Keyword> 
+  <Keyword>I2S</Keyword> 
+  <Keyword>DMA</Keyword>   
+  <Keyword>CapSense_CSD_P4</Keyword>  
+  <Keyword Hidden="true">CY8CKIT-046</Keyword>
+  <Description>This project demonstrates the capability of PSoC 4200L to provide a high-quality audio playback and recording interface to a Windows or Mac PC.
+  </Description>  
+  <DeviceFilter>PSoC 4200L</DeviceFilter>  
+  <MinToolVersion>3.3.0.7343</MinToolVersion>
+</Project>

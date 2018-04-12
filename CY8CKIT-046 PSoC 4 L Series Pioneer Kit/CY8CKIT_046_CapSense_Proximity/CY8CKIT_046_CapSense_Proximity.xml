@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="CY8CKIT_046_CapSense_Proximity" WorkspaceName="CY8CKIT_046_CapSense_Proximity.cywrk">
+  <Version>1.0</Version>  
+  <Keyword>CapSense</Keyword>
+  <Keyword>Proximity</Keyword>  
+  <Keyword>CapSense_CSD_P4</Keyword>     
+  <Keyword Hidden="true">CY8CKIT-046</Keyword>
+  <Description>This example demonstrates the CapSense proximity sensing using PSoC 4200L.
+  </Description>  
+  <DeviceFilter>PSoC 4200L</DeviceFilter>  
+  <MinToolVersion>3.3.0.7343</MinToolVersion>
+</Project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="CY8CKIT_046_CapSense_Buttons" WorkspaceName="CY8CKIT_046_CapSense_Buttons.cywrk">
+  <Version>1.0</Version>  
+  <Keyword>CapSense</Keyword>
+  <Keyword>CSD2X</Keyword>  
+  <Keyword>Dual Channel CapSense</Keyword>       
+  <Keyword>CapSense_CSD_P4</Keyword>  
+  <Keyword Hidden="true">CY8CKIT-046</Keyword>
+  <Description>This example demonstrates a simple CapSense button implementation with LED color and intensity control. The example also demonstrates dual-channel CapSense available in the device. 
+  </Description>  
+  <DeviceFilter>PSoC 4200L</DeviceFilter>  
+  <MinToolVersion>3.3.0.7343</MinToolVersion>
+</Project>

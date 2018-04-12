@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="CY8CKIT_046_Deep_Sleep_Blinky" WorkspaceName="CY8CKIT_046_Deep_Sleep_Blinky.cywrk">
+  <Version>1.0</Version>  
+  <Keyword>ILO_Trim</Keyword>
+  <Keyword>DeepSleep</Keyword>  
+  <Keyword Hidden="true">Deep-Sleep</Keyword>
+  <Keyword Hidden="true">Deep Sleep</Keyword>
+  <Keyword Hidden="true">LED blinky</Keyword>  
+  <Keyword Hidden="true">CY8CKIT-046</Keyword>
+  <Description>This example demonstrates DeepSleep power mode operation of PSoC 4200L device. The PSoC 4200L device is put to DeepSleep power mode and wakes up every 1 second. In addition, this example uses the ILO Trim Component to trim the ILO to an accuracy of (+/-10%) using IMO.
+  </Description>  
+  <DeviceFilter>PSoC 4200L</DeviceFilter>  
+  <MinToolVersion>3.3.0.7343</MinToolVersion>
+</Project>
