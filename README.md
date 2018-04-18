@@ -72,6 +72,10 @@ This code example demonstrates CapSense based proximity sensing using a PCB trac
 This code example implements a CapSense based trackpad as a user interface. The trackpad has the CIE 1931 color gamut imprinted; user inputs (touch coordinates) are converted to the corresponding color coordinates. The RGB LED on the board is used to illustrate the chosen color by modulating the associated signal densities. The brightness of the RGB LED is controlled by using the two CapSense buttons.
 #### 4. CE216892 USB-HID Trackpad
 This code example implements a CapSense trackpad and two button sensors using a PSoC 4100S device. The PSoC device is interfaced to a Windows PC as a mouse using the USB HID protocol. The trackpad controls the cursor on the PC and the two button sensors act as right-click and left-click buttons. To optimize device power consumption and provide optimum touch response, this code example implements two power modes: Fast Scan Mode and Slow Scan Mode.
+#### 5. CE216873 ADC with Breathing LED
+This code example demonstrates the use of the Sequencing SAR ADC Component to measure an input voltage on any I/O pin. The example also shows how to implement a breathing LED using the Smart IO Component. The breathing LED effect is implemented by XORing two pulse-width modulation (PWM) signals which have slightly different frequencies. There are four levels of breathing rates and three different color LEDs. Depending on the ADC result, a specific LED and breathing rate is chosen. The ADC result is sent over I2C to a host PC running Cypress's Bridge Control Panel (BCP) program.
+
+
 
 ### CY8CKIT-042 PSoC 4 Pioneer Kit
 #### 1. Blinking LED
@@ -96,6 +100,22 @@ This example project demonstrates the Central and GATT client mode where the kit
 This project configures the kit for Direct Test Mode using Host Controller Interface (HCI). Direct Test Mode (DTM) is a method to test the BLE PHY layer and provide a report back to the tester.
 #### 5. Eddystone
 This project demonstrates a BLE beacon based on Google's Eddystone™ protocol on the BLE Pioneer Kit. A beacon is a wireless device that broadcasts data (such as temperature) over a periodic radio signal from a known location. BLE-based beacons use the BLE advertisement packets to broadcast data.
+
+###  CY8CKIT-044 PSoC 4-Series Pioneer Kit 
+#### 1. Deep-Sleep Blinky
+This project demonstrates the Deep-Sleep low-power mode of the PSoC 4200M device. The PSoC 4200M device is configured to be in Deep-Sleep power mode and wakes-up once every second. The PSoC 4200M toggles the state of the GPIO each time the device wakes up from Deep-Sleep power mode.
+#### 2. CapSense Proximity
+This project demonstrates the proximity sensing capability of the PSoC 4200M device. The CapSense scans for an approaching hand every 100ms and enters a low-power mode if proximity is not detected. The PSoC 4200M gradually increases the brightness of the green LED as the hand approaches the proximity sensor. If proximity is not detected for a period more than 3s, the PSoC 4200M increases the CapSense scanning interval to 100ms.
+#### 3. Proximity Gestures
+This project demonstrates the proximity gesture detection capability of the PSoC 4200M device using CapSense. The PSoC 4 M-Series Pioneer Kit has two headers which are used to connect proximity wires. These wires are used as proximity sensors to detect an approaching hand.
+#### 4. Touch Gestures
+This example project demonstrates the touch gesture recognition capability of the PSoC 4200M device using the CapSense Gesture Pad. This Gesture Pad has five buttons arranged similar to a joystick.
+#### 5. Accelerometer
+This example project shows a method to interface the onboard digital accelerometer with the PSoC 4200M device. The accelerometer is assigned with the I2C address 0x0F.
+#### 4. Sensor Hub
+This example project demonstrates the capability of the PSoC 4200M device to function as a sensor hub device. The PSoC 4200M can interface with multiple digital and analog sensors. In this example project, the PSoC 4200M interfaces an I2C-based accelerometer, a PWM-based temperature sensor, and an ambient light sensor. This example project requires the associated µC/Probe project files to show the output.
+#### 5.Raspberry Pi
+This project demonstrates the capability of the PSoC 4200M device to function as a sensor hub and output the values to a Raspberry Pi. In this example project, the PSoC 4200M interfaces an I2C-based accelerometer, a PWM-based temperature sensor, an I2C-based F-RAM, and an ambient light sensor.
 
 ### CY8CKIT-046 PSoC 4 L Series Pioneer Kit
 #### 1. DeepSleep Blinky
