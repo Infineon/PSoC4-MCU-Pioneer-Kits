@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="CY8CKIT_044_Accelerometer" WorkspaceName="CY8CKIT_044_Accelerometer.cywrk">
+  <Version>1.0</Version>
+  <Keyword>Accelerometer</Keyword>
+  <Keyword>I2C (SCB mode)</Keyword>
+  <Keyword>PWM</Keyword>
+  <Keyword Hidden="true">CY8CKIT-044</Keyword>
+  <Description>This code example shows a method to interface the onboard digital accelerometer with the PSoC 4200M device. PSoC 4200M reads the accelerometer data whenever the accelerometer generates an interrupt. This information is used to change the color and intensity of the onboard RGB LED depending on the direction of motion of the kit.</Description>
+  <DeviceFilter>PSoC 4200M</DeviceFilter>
+<MinToolVersion>4.2.0.641</MinToolVersion>
+</Project>

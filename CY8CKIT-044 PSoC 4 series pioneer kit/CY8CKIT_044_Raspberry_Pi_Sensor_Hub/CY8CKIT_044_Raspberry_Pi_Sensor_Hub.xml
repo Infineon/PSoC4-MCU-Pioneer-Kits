@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="CY8CKIT_044_Raspberry_Pi_Sensor_Hub" WorkspaceName="CY8CKIT_044_Raspberry_Pi_Sensor_Hub.cywrk">
+  <Version>1.0</Version>
+  <Keyword>Raspberry Pi</Keyword>
+  <Keyword>CapSense</Keyword>
+  <Keyword>UART (SCB mode)</Keyword>
+  <Keyword>RTC</Keyword>
+  <Keyword>Temperature Sensor</Keyword>
+  <Keyword>DMA Channel</Keyword>
+  <Keyword>Opamp</Keyword>
+  <Keyword>Sequencing SAR ADC</Keyword>
+  <Keyword Hidden="true">CY8CKIT-044</Keyword>
+  <Description>This code example demonstrates the capability of the PSoC 4200M device to function as a sensor hub device. The PSoC 4200M interfaces an I2C-based accelerometer, a PWM-based temperature sensor, and an ambient light sensor. The UART data is sent to the Raspberry Pi interface.</Description>
+  <DeviceFilter>PSoC 4200M</DeviceFilter>
+<MinToolVersion>4.2.0.641</MinToolVersion>
+</Project>
