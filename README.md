@@ -89,7 +89,7 @@ device from Deep-Sleep mode and enter Active mode. The device goes back to sleep
 The brightness of the green and red LEDs are varied based on the position of the user’s finger on the CapSense slider. When the finger is on segment 5 (P1[5]) of the slider, the green LED is brighter than the red LED; when the finger is on segment 1 (P1[1]) of the slider, the red LED is brighter than the green LED.
 
 
-### CY8CKIT-042-BLE Pioneer Kit
+### CY8CKIT-042-BLE Bluetooth® Low Energy Pioneer Kit
 #### 1. CapSense Slider and LED
 This project demonstrates connectivity between the BLE Pioneer Kit (acting as a Peripheral and GATT server device) and CySmart Central Emulation tool or mobile device running the CySmart mobile application (acting as a Central and GATT client device). It transfers CapSense Slider data and RGB LED color data between the connected devices over BLE.
 #### 2. CapSense Proximity
@@ -101,7 +101,7 @@ This project configures the kit for Direct Test Mode using Host Controller Inter
 #### 5. Eddystone
 This project demonstrates a BLE beacon based on Google's Eddystone™ protocol on the BLE Pioneer Kit. A beacon is a wireless device that broadcasts data (such as temperature) over a periodic radio signal from a known location. BLE-based beacons use the BLE advertisement packets to broadcast data.
 
-###  CY8CKIT-044 PSoC 4-Series Pioneer Kit 
+###  CY8CKIT-044 PSoC 4 M-Series Pioneer Kit 
 #### 1. Deep-Sleep Blinky
 This project demonstrates the Deep-Sleep low-power mode of the PSoC 4200M device. The PSoC 4200M device is configured to be in Deep-Sleep power mode and wakes-up once every second. The PSoC 4200M toggles the state of the GPIO each time the device wakes up from Deep-Sleep power mode.
 #### 2. CapSense Proximity
@@ -117,7 +117,7 @@ This example project demonstrates the capability of the PSoC 4200M device to fun
 #### 5.Raspberry Pi
 This project demonstrates the capability of the PSoC 4200M device to function as a sensor hub and output the values to a Raspberry Pi. In this example project, the PSoC 4200M interfaces an I2C-based accelerometer, a PWM-based temperature sensor, an I2C-based F-RAM, and an ambient light sensor.
 
-### CY8CKIT-046 PSoC 4 L Series Pioneer Kit
+### CY8CKIT-046 PSoC 4 L-Series Pioneer Kit
 #### 1. DeepSleep Blinky
 This code example demonstrates the DeepSleep low-power mode of the PSoC 4200L device. The device is configured to be in DeepSleep mode and wakes up once every second. The PSoC 4200L toggles the GPIO state each time the device wakes up from DeepSleep mode. The GPIO is connected to the green LED on the kit, which turns on and off depending upon the GPIO state. The example also demonstrates a method to calibrate the ILO clock based on the IMO clock signal for better ILO accuracy. The calibrated LFCLK is used to source the watchdog timer.
 #### 2. CapSense Proximity
